@@ -1,5 +1,5 @@
-
 """
+
 #1
 eannasList = [1,2,3,4,5]
 print(eannasList)
@@ -32,6 +32,9 @@ eannasList2 = list(range(1, 5))
 print(eannasList2)
 """
 #------------------------------------------------------------------------------------
+"""
+from typing import Annotated
+
 
 myUniqueList = []
 notAllowedIn = []
@@ -63,7 +66,7 @@ guest = "Aoife"
 checked = guestListCheck(guest)
 print(myUniqueList)
 
-
+"""
 
 #print(notAllowedIn)
 #print(checked)
@@ -142,15 +145,41 @@ If the value does exist, it should not be added, and the function should return 
     Action
     return Output
 """
-
-testForPush = "Symbolic"
-
-
+"""myUniqueList = ["tarzan"]
+denied = ["bill"]
 
 
-print(testForPush)
+def approvedGuest(guest):
+    if guest not in myUniqueList:
+        myUniqueList.append(guest)
+        return True
+    elif:
+    denied.append(guest)
+    return False
+"""
+"""   
+def refuseGuest(guest):
+    if guest in myUniqueList:
+        denied.append(guest)
+        return False
+"""
+
+"""guest = "Anna"
+guest = approvedGuest("Anna")
+guest = approvedGuest("Anna")
+guest = approvedGuest("Anna")
+guest = approvedGuest("Anna")
+guest = approvedGuest("Anna")
 
 
+print(guest)
 
+print(myUniqueList)
+print(denied)
+"""
+guest = input("Enter Name: ")
+madlib = f"Guest {guest} has already entered"
+
+print(madlib)
 
 
