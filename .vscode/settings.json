@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "terminal.integrated.automationShell.osx": "",
+    "extensions.confirmedUriHandlerExtensionIds": [
+    
+    ],
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.cursorBlinking": true
 }
