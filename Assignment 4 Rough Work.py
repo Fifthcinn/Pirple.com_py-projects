@@ -111,7 +111,8 @@ If the value does exist, it should not be added, and the function should return 
     Action
     return Output
 """
-"""myUniqueList =gg ["tarzan"]
+"""
+myUniqueList = ["tarzan"]
 denied = ["bill"]
 
 
@@ -126,12 +127,12 @@ def approvedGuest(guest):
 """   
 def refuseGuest(guest):
     if guest in myUniqueList:
-        denied.append(guest)fgh
-        
+        denied.append(guest)
         return False
 """
 
-"""guest = "Anna"
+"""
+guest = "Anna"
 guest = approvedGuest("Anna")
 guest = approvedGuest("Anna")
 guest = approvedGuest("Anna")
@@ -144,7 +145,9 @@ print(guest)
 print(myUniqueList)
 print(denied)
 """
-guest = input("Enter Name: ")
+
+
+guest = input ("Enter Name:")
 
 madlib = f"Guest {guest} has already entered"
 
@@ -152,7 +155,17 @@ print(madlib)
 
 
 
+#guest = input("Enter Name: ")
 
 
 
+"""
+def phrase(state):
+    if state == "a":
+        return "Correct"
 
+state = "a"
+
+print(phrase(state))
+
+"""
