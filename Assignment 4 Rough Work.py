@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------------
-"""
+
 
 myUniqueList = []
 notAllowedIn = []
@@ -32,7 +32,7 @@ guest = "Aoife"
 checked = guestListCheck(guest)
 print(myUniqueList)
 
-"""
+
 
 #print(notAllowedIn)
 #print(checked)
@@ -47,7 +47,6 @@ print(myUniqueList)
 
 
 
-"""
 
 myUniqueList = [22]
 
@@ -92,7 +91,7 @@ print(Name)
 
 
 print("")
-"""
+
 
 
 
@@ -107,11 +106,11 @@ If the value does exist, it should not be added, and the function should return 
 """
 
 
-"""def functionName(input)
+def functionName(input)
     Action
     return Output
-"""
-"""
+
+
 myUniqueList = ["tarzan"]
 denied = ["bill"]
 
@@ -120,18 +119,14 @@ def approvedGuest(guest):
     if guest not in myUniqueList:
         myUniqueList.append(guest)
         return True
-    elif:
-    denied.append(guest)
-    return False
-"""
-"""   
+
 def refuseGuest(guest):
     if guest in myUniqueList:
         denied.append(guest)
         return False
-"""
 
-"""
+
+
 guest = "Anna"
 guest = approvedGuest("Anna")
 guest = approvedGuest("Anna")
@@ -139,12 +134,15 @@ guest = approvedGuest("Anna")
 guest = approvedGuest("Anna")
 guest = approvedGuest("Anna")
 
+guest = guest + approvedGuest(guest)
+
+
+
 
 print(guest)
-
 print(myUniqueList)
 print(denied)
-"""
+
 
 
 guest = input ("Enter Name:")
@@ -159,7 +157,7 @@ print(madlib)
 
 
 
-"""
+
 def phrase(state):
     if state == "a":
         return "Correct"
@@ -168,4 +166,3 @@ state = "a"
 
 print(phrase(state))
 
-"""
