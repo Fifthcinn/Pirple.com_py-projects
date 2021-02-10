@@ -1,3 +1,5 @@
+"""
+
 # 1. guestName = enter name to check if permissable
 # 2. name gets entered into input
 # 3. function checks name
@@ -54,8 +56,6 @@ while userChoice == "":
 #    if guestName == "end":
 #        break
 
-
-
-
-
 #print(guestEntry("john"))
+
+"""
