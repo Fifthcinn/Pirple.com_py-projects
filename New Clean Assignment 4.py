@@ -14,7 +14,7 @@ guestName = ""
 guest = ""
 
 def guestRefuse(guest):
-    if myUniqueList == "":
+    if myUniqueList == []:
         return ""
     elif guestName in myUniqueList:
 #        myLeftOvers.append(guestName)
@@ -22,7 +22,7 @@ def guestRefuse(guest):
 
 
 def guestEntry(guest):
-    if myLeftOvers == "":
+    if myLeftOvers == []:
         return ""
     elif guestName not in myUniqueList:
 #        myUniqueList.append(guestName)
@@ -31,7 +31,7 @@ def guestEntry(guest):
 
 userChoice = ""
 while userChoice == "":
-    guestName = input("TYPE 'END' TO CLOSE \n Please enter name: ")
+    guestName = input("\nTYPE 'END' TO CLOSE \nPlease enter name: ")
     if guestName == "end":
         break
 
@@ -39,6 +39,8 @@ while userChoice == "":
             myLeftOvers.append(guestName)
     print("myLeftOvers: " + str(myLeftOvers))
     print(guestRefuse(guestName))
+
+
     
     if guestName not in myUniqueList:
             myUniqueList.append(guestName)
