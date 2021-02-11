@@ -59,7 +59,7 @@ def guestEntry(guest):
         myUniqueList.append(guest)
         return True
     """
-
+'''
 myUniqueList = ["rob"]
 myLeftOvers = []
 guest = input("Enter Name: ")
@@ -110,39 +110,9 @@ print(guestEntry(myLeftOvers))
 
 #choice = input("do you want to enter another name? press y for yes or n for no")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #myUniqueList = myUniqueList + guestEntry(guest)
 #myLeftOvers = myUniqueList + guestRefuse(guest)
 
+'''
+
+import NumPy

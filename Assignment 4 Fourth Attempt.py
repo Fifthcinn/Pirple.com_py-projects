@@ -37,27 +37,16 @@ global array called myLeftovers. If someone tries to add a value to myUniqueList
 but it's rejected (for non-uniqueness), it should get added to myLeftovers instead.
 """
 
-help(array)
+import array as arr
 
-help(array)
+a = arr.array('B',[1,2,3,4,5,6])
+print(a)
 
+a.append('rob')
+print(a)
 
+#help(array)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import numpy as np
 
 
